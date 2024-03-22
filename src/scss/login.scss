@@ -1,0 +1,76 @@
+
+@use "_mixin" as m;
+$font-poppins: "Poppins", sans-serif;
+
+body {
+    font-family: $font-poppins;
+    margin: auto;
+    padding: auto;
+}
+.container {
+    max-width: 1268px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    top:250px;
+    left:550px;
+}
+form{
+
+    width: 800px;
+    h2{
+        text-align: center;
+        color: #B88E2F;
+        font-size: 30;
+    }
+}
+.form-login-user{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 80px;
+    label{
+        color: #B88E2F;
+        font-size: 24px;
+    }
+    input{
+        margin-top: 10px;
+        width: 600px;
+        height: 60px;
+        border-radius: 15px;
+        border: 1px solid #000;
+    }
+
+}
+.form-btn{
+    position: relative;
+    left: 300px;
+    padding: 20px 80px;
+    border-radius: 10px;
+    background-color: #F9F1E7;
+    border: none;
+}
+.form-icon{
+    display: flex;
+    justify-content: center;
+    
+    height: 50px;
+    
+}
+.form-icon-fb{
+    padding: 20px 40px 40px 40px;
+
+    border: 1px solid #0171D3;
+    background-color: #0171D3;
+    border-radius: 15px;
+    margin: 10px 80px;
+
+}
+.form-icon-gg{
+    padding: 20px 40px 40px 40px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 10px 80px;
+
+}
